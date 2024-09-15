@@ -4,9 +4,7 @@ Library of core routines for practical astronomy.
 
 - [AstroPC](#astropc)
   - [Features](#features)
-  - [Getting started](#getting-started)
   - [Usage](#usage)
-    - [Running examples](#running-examples)
   - [Unit tests](#unit-tests)
   - [Additional information](#additional-information)
     - [Civil vs. Astronomical year](#civil-vs-astronomical-year)
