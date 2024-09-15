@@ -1,8 +1,9 @@
 from math import radians
-from pytest import fixture, approx
 
-from astropc.planets.sphera import CelestialSphera
+from pytest import approx, fixture
+
 from astropc.planets.ids import PlanetId
+from astropc.planets.sphera import CelestialSphera
 
 DELTA = 1e-6
 

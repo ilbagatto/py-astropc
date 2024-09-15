@@ -3,9 +3,10 @@
 
 from functools import partial
 from math import cos, degrees, floor, radians, sin
+
 from astropc import nutation
-from astropc.mathutils import PI2, Polar, frac360, polynome, reduce_deg
 from astropc.kepler import eccentric_anomaly, true_anomaly
+from astropc.mathutils import PI2, Polar, frac360, polynome, reduce_deg
 from astropc.timeutils.julian import DAYS_PER_CENT
 
 __author__ = "ilbagatto"

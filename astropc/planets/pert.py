@@ -3,6 +3,7 @@ from math import cos, radians, sin
 from typing import TYPE_CHECKING
 
 from astropc.mathutils import reduce_rad
+
 from .ids import PlanetId
 
 if TYPE_CHECKING:

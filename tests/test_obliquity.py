@@ -1,4 +1,5 @@
 from pytest import approx
+
 from astropc.obliq import calc_obliquity
 
 DELTA = 1e-4  # result precision

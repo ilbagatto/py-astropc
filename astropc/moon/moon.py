@@ -5,8 +5,8 @@ from collections import namedtuple
 from functools import partial
 from math import cos, radians, sin
 
-from astropc.nutation import calc_nutation
 from astropc.mathutils import frac, polynome, reduce_deg
+from astropc.nutation import calc_nutation
 from astropc.timeutils.julian import DAYS_PER_CENT
 
 __author__ = "ilbagatto"

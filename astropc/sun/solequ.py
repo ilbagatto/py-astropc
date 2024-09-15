@@ -3,6 +3,7 @@ from enum import Enum, auto
 from math import radians, sin
 
 from astropc.mathutils import shortest_arc_deg
+
 from .sun import apparent
 
 __author__ = "ilbagatto"

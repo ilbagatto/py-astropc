@@ -1,7 +1,7 @@
 from pytest import approx
+
 from astropc.nutation import calc_nutation
 from astropc.timeutils.julian import jul_day
-
 
 delta = 1e-4
 # result precision

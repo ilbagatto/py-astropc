@@ -20,8 +20,8 @@ __license__ = "MIT"
 __version__ = "0.0.1"
 
 from astropc.mathutils import polynome
-from .julian import cal_date, djd_zero
 
+from .julian import cal_date, djd_zero
 
 _historical = {
     # From J.Meeus: Astronomical Algorithms: 2 edition

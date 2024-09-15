@@ -3,7 +3,7 @@
 
 from collections import namedtuple
 from functools import partial, reduce
-from math import fabs, modf, fmod, pi
+from math import fabs, fmod, modf, pi
 from operator import mul
 
 __author__ = "ilbagatto"

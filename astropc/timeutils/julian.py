@@ -20,7 +20,7 @@ The module contains some other usefull calendar-related functions, such as
 
 from collections import namedtuple
 from datetime import datetime, timezone
-from math import floor, trunc, modf, fabs
+from math import fabs, floor, modf, trunc
 
 from astropc.mathutils import dms
 

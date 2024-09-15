@@ -36,6 +36,7 @@ See
 [Wiki article](https://en.wikipedia.org/wiki/Gregorian_calendar#Adoption_of_the_Gregorian_Calendar)
 """
 
+from .solequ import *
+
 # flake8: noqa F401, F403
 from .sun import *
-from .solequ import *

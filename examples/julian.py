@@ -1,7 +1,7 @@
 # flake8: noqa E402
+import sys
 from datetime import datetime
 from pathlib import Path
-import sys
 
 libdir = Path(__file__).parent.parent.as_posix()
 sys.path.insert(0, libdir)
@@ -17,7 +17,8 @@ YYYY-MM-DDT[HH[:MM[:SS[.mmm[uuu]]]]][+HH:MM] like:
 Current date/time by default.
 """
 
-def main():
+
+def main() -> None:
     if len(sys.argv) > 1:
         if sys.argv[1] in ("-h", "--help"):
             print(USAGE % datetime.now())
@@ -35,6 +36,7 @@ def main():
     djd = jul_day(dt.year, dt.month, dt.day + hm / 24)
     jd = djd + DJD_TO_JD
     print("%12.6f" % jd)
-    
-if __name__ == '__main__':
+
+
+if __name__ == "__main__":
     main()

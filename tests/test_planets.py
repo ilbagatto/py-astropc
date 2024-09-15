@@ -1,5 +1,6 @@
 from pytest import approx, fixture
-from astropc.planets import CelestialSphera, PlanetId, Planet, EclipticPosition
+
+from astropc.planets import CelestialSphera, EclipticPosition, Planet, PlanetId
 from astropc.planets.orbit import OrbitInstance
 from astropc.planets.pert import PertRecord
 

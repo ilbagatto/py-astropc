@@ -23,6 +23,11 @@ dev = [
     "pytest-mock",
     "pre-commit",
     "mypy",
+    "isort",
+    "black",
     "flake8",
     "pdoc3",
 ]
+
+[tool.isort]
+profile = "black"

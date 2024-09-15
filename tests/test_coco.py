@@ -2,7 +2,6 @@ from pytest import approx, mark
 
 from astropc.coco import ecl2equ, equ2ecl, equ2hor, hor2equ
 
-
 DELTA = 1e-4
 
 

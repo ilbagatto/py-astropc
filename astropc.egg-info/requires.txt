@@ -4,5 +4,7 @@ pytest
 pytest-mock
 pre-commit
 mypy
+isort
+black
 flake8
 pdoc3

@@ -12,11 +12,11 @@ from astropc import sun
 from astropc.mathutils import Polar, reduce_rad
 from astropc.nutation import Nutation, calc_nutation
 from astropc.obliq import calc_obliquity
-from .ids import PlanetId
-from .planet import Planet
 from astropc.timeutils.julian import DAYS_PER_CENT
 
+from .ids import PlanetId
 from .orbit import OrbitInstance
+from .planet import Planet
 
 __author__ = "ilbagatto"
 __license__ = "MIT"

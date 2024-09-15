@@ -1,6 +1,6 @@
 from pytest import approx, fixture
-from astropc.planets.orbit import MLTerms, OElements, Terms
 
+from astropc.planets.orbit import MLTerms, OElements, Terms
 
 DELTA = 1e-6
 T = 0.8405338809034908

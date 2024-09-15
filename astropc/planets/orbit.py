@@ -3,7 +3,6 @@
 from dataclasses import dataclass
 from math import radians
 
-
 from astropc.mathutils import frac360, polynome, reduce_deg
 from astropc.timeutils.julian import DAYS_PER_CENT
 

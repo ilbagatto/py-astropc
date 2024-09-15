@@ -1,6 +1,6 @@
 from pytest import approx
 
-from astropc.moon import true_position, apparent, lunar_node
+from astropc.moon import apparent, lunar_node, true_position
 
 
 class TestTruePosition:
