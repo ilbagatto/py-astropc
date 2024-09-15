@@ -1,0 +1,8 @@
+
+[dev]
+pytest
+pytest-mock
+pre-commit
+mypy
+flake8
+pdoc3

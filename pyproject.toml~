@@ -1,0 +1,32 @@
+[project]
+name = "astropc"
+description = "Core routines for practical astronomy."
+version = "0.0.1"
+requires-python = ">= 3.12"
+authors = [{ name="ilbagatto", email="sergei.krushinski@gmail.com" }]
+dependencies = []
+classifiers = [
+  "Development Status :: 1 - Beta",
+  "Programming Language :: Python"
+]
+readme = "README.md"
+license = {text = "MIT License"}
+keywords = ["astronomy"]
+
+[project.scripts]
+astropc-jd = ""
+
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "pytest-mock",
+    "pre-commit",
+    "mypy",
+    "flake8",
+    "pdoc3",
+]
