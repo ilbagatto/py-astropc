@@ -20,7 +20,7 @@ Library of core routines for practical astronomy.
 ## Features
 
 * Miscallenous mathematical routines usefull for practical astronomy.
-* Converts between *Civil* and *Julian* dates.
+* Convertions between *Civil* and *Julian* dates.
 * Calculates difference between *Universial Coordinated* and *Terrestrial Dynamic* time (*Delta-T*).
 * Calculates *Sidereal* (*Stellar*) time.
 * Calculates *Nutation* and *Obliquity of the ecliptic*.
@@ -28,21 +28,14 @@ Library of core routines for practical astronomy.
 * Accurate positions of Sun, Moon and the planets, including _Pluto_.
 * Time of solstices, equinoxes and lunations.
 
-## Getting started
-
-TBD
 
 ## Usage
 
 See tests/ and examples/ for usage examples.
 
-### Running examples
-
-TBD
-
 ## Unit tests
 
-From the project root directory"
+From the project root directory:
 
 ```console
 $ pytest tests
