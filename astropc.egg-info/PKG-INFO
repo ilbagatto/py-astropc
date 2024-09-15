@@ -26,9 +26,8 @@ Library of core routines for practical astronomy.
 
 - [AstroPC](#astropc)
   - [Features](#features)
-  - [Getting started](#getting-started)
+  - [Installation](#installation)
   - [Usage](#usage)
-    - [Running examples](#running-examples)
   - [Unit tests](#unit-tests)
   - [Additional information](#additional-information)
     - [Civil vs. Astronomical year](#civil-vs-astronomical-year)
@@ -42,7 +41,7 @@ Library of core routines for practical astronomy.
 ## Features
 
 * Miscallenous mathematical routines usefull for practical astronomy.
-* Converts between *Civil* and *Julian* dates.
+* Convertions between *Civil* and *Julian* dates.
 * Calculates difference between *Universial Coordinated* and *Terrestrial Dynamic* time (*Delta-T*).
 * Calculates *Sidereal* (*Stellar*) time.
 * Calculates *Nutation* and *Obliquity of the ecliptic*.
@@ -50,21 +49,27 @@ Library of core routines for practical astronomy.
 * Accurate positions of Sun, Moon and the planets, including _Pluto_.
 * Time of solstices, equinoxes and lunations.
 
-## Getting started
 
-TBD
+## Installation
+
+```console
+$ pip install .
+```
+
+Or, for development mode
+
+```console
+$ pip install -e '.[dev]'
+```
 
 ## Usage
 
+
 See tests/ and examples/ for usage examples.
-
-### Running examples
-
-TBD
 
 ## Unit tests
 
-From the project root directory"
+From the project root directory:
 
 ```console
 $ pytest tests
