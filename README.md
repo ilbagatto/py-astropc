@@ -4,6 +4,7 @@ Library of core routines for practical astronomy.
 
 - [AstroPC](#astropc)
   - [Features](#features)
+  - [Installation](#installation)
   - [Usage](#usage)
   - [Unit tests](#unit-tests)
   - [Additional information](#additional-information)
@@ -27,7 +28,14 @@ Library of core routines for practical astronomy.
 * Time of solstices, equinoxes and lunations.
 
 
+## Installation
+
+```console
+$ pip install
+```
+
 ## Usage
+
 
 See tests/ and examples/ for usage examples.
 
